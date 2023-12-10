@@ -51,7 +51,7 @@ def message(msg):
     except:
         pass
 
-bot=telepot.Bot("6846519705:AAEaHGxLjtt_MpiTHHvIQv1xa53txCYi0WM")
+bot=telepot.Bot("token")
 bot.deleteWebhook()
 MessageLoop(bot,{"chat":message}).run_as_thread()
 print("runing")
